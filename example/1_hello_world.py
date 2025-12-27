@@ -46,8 +46,8 @@ if __name__ == "__main__":
     renderer = HelloRenderer(CanvasConfig(bg_color='white'))
     renderer.render(
         DrawConfig(
-            text="Hello World",
-            font_size=12,
+            text="你好世界",
+            font_size=24,
             rect_size=(VisualAngle(value=12), VisualAngle(value=5))
         ),
         OutputConfig(file_path=str(REPO_ROOT / "example/output/1_hello_world.svg"))
